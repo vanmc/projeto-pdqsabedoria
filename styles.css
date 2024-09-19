@@ -112,11 +112,12 @@ footer {
     }
 
     .img2 {
-        width: 90%;
+        width: 95%;
     }
 
     .messageBox {
         max-width: 90%; /* Aumenta a responsividade da caixa de mensagem */
         overflow: auto;
+        font-size: 15px;
     }
 }
