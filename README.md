@@ -3,7 +3,7 @@
 Este projeto foi criado de forma a estudar alguns conceitos básicos de HTML, CSS e JavaScript. Nele, o usuário encontrará uma interatividade básica envolvendo botões, responsáveis por gatilhar ações como gerar frases aleatórias, copiar as frases geradas e recarregar a página. Foi feita a responsividade da página para dispositivos móveis, mas esta ainda pode apresentar pequenos problemas que eventualmente serão solucionados e o projeto aprimorado. 
 </P>
 <br>
-<p align="center"><a href="https://projeto-pdqsabedoria.vercel.app/">Acesse a página do projeto!</a></p>
+<p align="center"><a href="https://projeto-pdqsabedoria.vercel.app/" target="_blank">Acesse a página do projeto!</a></p>
 
 <h2 align="center">Capturas de tela:</h2>
 <div align="center">

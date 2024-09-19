@@ -111,6 +111,10 @@ footer {
         width: 90%; /* Faz os botões ocuparem mais espaço em telas pequenas */
     }
 
+    .img2 {
+        width: 90%;
+    }
+
     .messageBox {
         max-width: 90%; /* Aumenta a responsividade da caixa de mensagem */
         overflow: auto;
