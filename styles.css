@@ -1,0 +1,165 @@
+body {
+    height: 100vh;
+    width: 800px;
+    background-color: #fabfd3;
+    background-image: linear-gradient(0deg, #fabfd3 20%, #B5FFFC 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.img1, .img2 {
+    margin: 50px auto 30px auto;
+    height: 300px;
+    width: auto;
+}
+
+.img2 {
+    display: none;
+}
+
+main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+button {
+    width: 300px;
+    height: 50px;
+    background-color: #f7b5cb;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    margin: 40px auto;
+    font-family: "Inconsolata", monospace;
+    transition: background-color 0.2s ease-in-out;
+}
+
+
+button:hover {
+    background-color: #d89dff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.messageBox {
+    height: 80px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #d89dff;
+    border-radius: 20px;
+    box-shadow: 2px 3px 5px 1px rgba(92, 58, 95, 0.5);
+    font-size: 26px;
+    font-family: "Inconsolata", monospace;
+    overflow: hidden;
+}
+
+.messageBox p {
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: "Handjet", sans-serif;
+    font-size: 20px;
+    border-top: 1px solid #29292928;
+    width: auto;
+}
+
+.observation {
+    font-size: 13px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    padding: 5px 0 10px 0;
+    font-size: 20px;
+    align-items: center;
+}
+
+.social-links a {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 50%;
+  }
+  
+  .social-links a:hover {
+    background-color: #d89dff
+  }
+
+/* ajuda feita pelo chatgpt para deixar o site mais responsivo*/
+/* Estilos para dispositivos móveis (max-width: 768px) */
+@media (max-width: 768px) {
+    body {
+        width: 100%; /* Permite que o body ocupe toda a largura da tela */
+        height: auto; /* Altura automática */
+    }
+
+    .img1, .img2 {
+        height: 200px; /* Ajusta a altura das imagens */
+        margin: 30px auto; /* Espaço ao redor das imagens */
+    }
+
+    button {
+        width: 80%; /* Botões ocupam 80% da largura da tela */
+        font-size: 18px; /* Fonte um pouco menor */
+    }
+
+    .messageBox {
+        padding: 20px; /* Menos padding */
+        font-size: 20px; /* Fonte menor */
+    }
+
+    footer {
+        font-size: 16px; /* Fonte do footer menor */
+    }
+
+    .observation {
+        font-size: 12px; /* Fonte da observação menor */
+    }
+}
+
+/* Estilos para dispositivos extra pequenos (max-width: 480px) */
+@media (max-width: 480px) {
+    .img1, .img2 {
+        height: 150px; /* Ajusta a altura das imagens ainda mais */
+    }
+
+    button {
+        height: 45px; /* Altura dos botões menor */
+        font-size: 16px; /* Fonte ainda menor */
+    }
+
+    .messageBox {
+        font-size: 18px; /* Fonte ainda menor */
+    }
+
+    footer {
+        font-size: 14px; /* Fonte do footer ainda menor */
+    }
+
+    .observation {
+        font-size: 11px; /* Fonte da observação ainda menor */
+    }
+}

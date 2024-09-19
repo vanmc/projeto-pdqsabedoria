@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pão de Queijo da Sorte</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="images">
+            <img class="img1" src="./assets/paodequeijo1.gif" alt="Imagem de um pão de queijo.">
+            <img class="img2" src="./assets/paodequeijo2.gif" alt="Imagem diferente de um pão de queijo.">
+        </div>
+
+        <div class="messageBox">
+            <p>Deseja saber qual sua sabedoria para o dia?</p>
+        </div>
+        <div>
+            <button class="btnYes" onclick="showPhraseIfYes()">Sim</button>
+            <button class="btnNo" onclick="showPhraseIfNo()">Não</button>
+            <button class="btnRestart" style="display: none;">Deseja outra frase?</button>
+            <button class="btnCopy" style="display: none;">Copiar frase?</button>
+        </div>
+        </main>
+    <footer>
+        <p>Feito com ❤️ durante um estudo de Front-End básico. Obrigada por visitar! &copy 2024 - Vanessa Coutinho.
+        <div class="social-links">
+            <a href="https://github.com/vanmc" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/vanessamcgcoutinho/" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+        </div>
+        <p class ="observation">(não leve nada a sério o que está escrito aqui, é tudo uma brincadeira 😉)</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
